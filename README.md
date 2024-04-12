@@ -10,7 +10,7 @@ pip install pyzamzar
 
 ## Usage
 
-## Initialize Zamzar client
+### Initialize Zamzar client
 
 ```python
 from zamzar import ZamzarClient
@@ -18,7 +18,7 @@ from zamzar import ZamzarClient
 client = ZamzarClient('YOUR_API_KEY')
 ```
 
-## Start conversion job
+### Start conversion job
 
 Example:
 
@@ -27,7 +27,7 @@ job_info = client.start_conversion_jo('README.md', 'pdf')
 job_id = job_info['id']
 ```
 
-## Poll job status until its completion
+### Poll job status until its completion
 
 Example:
 
@@ -43,7 +43,7 @@ while True:
         print("Conversion in progress. Please wait...")
 ```
 
-## Download converted file(s)
+### Download converted file(s)
 
 Example:
 
