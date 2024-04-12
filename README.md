@@ -23,7 +23,7 @@ client = ZamzarClient('YOUR_API_KEY')
 Example:
 
 ```python
-job_info = client.start_conversion_jo('README.md', 'pdf')
+job_info = client.start_conversion_job('README.md', 'pdf')
 job_id = job_info['id']
 ```
 
