@@ -10,6 +10,10 @@ pip install pyzamzar
 
 ## Usage
 
+### Obtain your API key
+
+[Create an account](https://developers.zamzar.com/pricing), [log in](https://developers.zamzar.com/login) and obtain your API key [here](https://developers.zamzar.com/user)
+
 ### Initialize Zamzar client
 
 ```python
